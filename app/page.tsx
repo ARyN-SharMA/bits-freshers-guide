@@ -129,7 +129,7 @@ export default function HomePage() {
                   <div className="text-4xl font-bold text-gradient mb-3">9 Courses</div>
                   <p className="text-muted-foreground leading-relaxed">
                     Complete breakdown with instructor insights, strategic recommendations, and insider tips for single
-                    degree students.
+                    degree students(Group A).
                   </p>
                 </div>
 
@@ -168,7 +168,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-gradient-secondary text-xl">Group B</span>
-                    <span className="text-sm text-muted-foreground">(Dual Degree)</span>
+                    <span className="text-sm text-muted-foreground">(Dual Degree, Chemical, Manu.)</span>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -176,14 +176,14 @@ export default function HomePage() {
                 <div className="text-center">
                   <div className="text-4xl font-bold text-gradient-secondary mb-3">8 Courses</div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Specialized recommendations tailored for dual degree program requirements and pathways.
+                    Specialized recommendations tailored for course requirements of dual degree, Chemical and Manufacturing students(Group B).
                   </p>
                 </div>
 
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full" />
-                    <span className="text-muted-foreground">Mathematics, Physics, Chemistry</span>
+                    <span className="text-muted-foreground">Mathematics, Physics, Chemistry Labs</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full" />
