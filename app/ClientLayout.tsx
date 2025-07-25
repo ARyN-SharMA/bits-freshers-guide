@@ -36,7 +36,7 @@ export default function ClientLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
           <div className="flex min-h-screen bg-gradient-to-br from-background via-background to-secondary/10">
             <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-            <main className="flex-1 transition-all duration-300 ease-in-out lg:ml-16">
+            <main className="flex-1 transition-all duration-300 ease-in-out lg:ml-0">
               <div className="animate-fade-in-up">{children}</div>
             </main>
           </div>
