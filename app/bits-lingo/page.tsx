@@ -80,7 +80,7 @@ export default function BitsLingoPage() {
                   <h3 className="font-semibold mb-2">Units</h3>
                   <p className="text-sm text-muted-foreground">
                     The third number is the total credit units for the course. This determines the course's weightage in
-                    your GPA.
+                    your CGPA.
                   </p>
                 </CardContent>
               </Card>
