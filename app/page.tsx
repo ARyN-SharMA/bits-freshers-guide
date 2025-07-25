@@ -136,7 +136,7 @@ export default function HomePage() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full" />
-                    <span className="text-muted-foreground">Mathematics, Thermodynamics, Programming</span>
+                    <span className="text-muted-foreground">Mathematics, Thermodynamics, Computer Programming</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-pink-400 to-red-400 rounded-full" />
@@ -144,7 +144,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-red-400 to-orange-400 rounded-full" />
-                    <span className="text-muted-foreground">Workshop Practice, Technical Writing</span>
+                    <span className="text-muted-foreground">Workshop Practice, Technical Writing, General Biology</span>
                   </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-gradient-secondary text-xl">Group B</span>
-                    <span className="text-sm text-muted-foreground">(Dual Degree, Chemical, Manu.)</span>
+                    <span className="text-sm text-muted-foreground">(Dual Degree, Chemical, Manu., Civil)</span>
                   </div>
                 </CardTitle>
               </CardHeader>
@@ -176,14 +176,14 @@ export default function HomePage() {
                 <div className="text-center">
                   <div className="text-4xl font-bold text-gradient-secondary mb-3">8 Courses</div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Specialized recommendations tailored for course requirements of dual degree, Chemical and Manufacturing students(Group B).
+                    Specialized recommendations tailored for course requirements of dual degree, Chemical, Civil and Manufacturing students(Group B).
                   </p>
                 </div>
 
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full" />
-                    <span className="text-muted-foreground">Mathematics, MeOW, Chemistry</span>
+                    <span className="text-muted-foreground">Mathematics, MeOW, General Chemistry</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full" />
