@@ -13,9 +13,9 @@ export default function BitsLingoPage() {
     { hour: "Hour 4", time: "11:00 - 11:50 AM" },
     { hour: "Hour 5", time: "12:00 - 12:50 PM" },
     { hour: "Lunch", time: "12:00 - 1:00 PM" },
-    { hour: "Hour 6", time: "2:00 - 2:50 PM" },
-    { hour: "Hour 7", time: "3:00 - 3:50 PM" },
-    { hour: "Hour 8", time: "4:00 - 4:50 PM" },
+    { hour: "Hour 7", time: "2:00 - 2:50 PM" },
+    { hour: "Hour 8", time: "3:00 - 3:50 PM" },
+    { hour: "Hour 9", time: "4:00 - 4:50 PM" },
   ]
 
   return (
@@ -174,7 +174,7 @@ export default function BitsLingoPage() {
                 <Badge variant="outline" className="mx-1">
                   MW 67
                 </Badge>{" "}
-                means it happens on Monday from 2:00-3:50 PM and Wednesday from 2:00-3:50 PM.
+                means it happens on Monday from 1:00-2:50 PM and Wednesday from 1:00-2:50 PM.
               </AlertDescription>
             </Alert>
           </CardContent>
