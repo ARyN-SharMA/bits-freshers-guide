@@ -333,7 +333,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gradient mb-2">Compiled by Your Seniors</h3>
-                  <p className="text-muted-foreground mb-4">With love, experience, and countless late nights</p>
+                  <p className="text-muted-foreground mb-4">With love and experience</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-3">
                   {[
@@ -341,7 +341,9 @@ export default function HomePage() {
                     "Hitesh Tiwari (2024B3PS0944P)",
                     "Pragyan Gupta (2024B4PS0984P)",
                     "Divyam Dangayach (2024A2PS1254P)",
-                    "Tushar Raghwani (2024B4SP0976P)",
+                    "Tushar Raghwani (2024B4PS0976P)",
+                    "Lakshya Gupta (2024A1PS0255)",
+                    "Shreyansh Mishra (2024B3PS0947)",
                   ].map((compiler, index) => (
                     <Badge
                       key={index}
