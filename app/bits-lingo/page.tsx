@@ -12,11 +12,10 @@ export default function BitsLingoPage() {
     { hour: "Hour 3", time: "10:00 - 10:50 AM" },
     { hour: "Hour 4", time: "11:00 - 11:50 AM" },
     { hour: "Hour 5", time: "12:00 - 12:50 PM" },
-    { hour: "Lunch", time: "1:00 - 2:00 PM" },
+    { hour: "Lunch", time: "12:00 - 1:00 PM" },
     { hour: "Hour 6", time: "2:00 - 2:50 PM" },
     { hour: "Hour 7", time: "3:00 - 3:50 PM" },
     { hour: "Hour 8", time: "4:00 - 4:50 PM" },
-    { hour: "Hour 9", time: "5:00 - 5:50 PM" },
   ]
 
   return (
@@ -146,7 +145,7 @@ export default function BitsLingoPage() {
               numbered 1 through 9:
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {timeSlots.map((slot, index) => (
                 <Card
                   key={index}

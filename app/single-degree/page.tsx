@@ -36,9 +36,9 @@ export default function SingleDegreePage() {
               <User className="w-8 h-8 text-white" />
             </div>
           </div>
-          <h1 className="text-4xl font-bold tracking-tight">Single Degree Courses</h1>
+          <h1 className="text-4xl font-bold tracking-tight">Group A Courses</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Complete guide to all 9 compulsory courses for single degree students with detailed instructor
+            Complete guide to all 9 compulsory courses for Group A (Single Degree) students with detailed instructor
             recommendations.
           </p>
           <Badge variant="secondary" className="text-lg px-4 py-2">
@@ -592,7 +592,7 @@ export default function SingleDegreePage() {
         </Card>
 
         {/* Workshop Practice */}
-        <Card className="border-2 hover:shadow-xl transition-all duration-300 animate-slide-in-right">
+        <Card className="border-2 hover:shadow-xl transition-all duration-300 animate-slide-in-left">
           <CardHeader>
             <div className="flex items-center justify-between">
               <CardTitle className="flex items-center gap-3 text-2xl">

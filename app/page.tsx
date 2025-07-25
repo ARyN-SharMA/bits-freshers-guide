@@ -118,14 +118,18 @@ export default function HomePage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <User className="h-6 w-6 text-white" />
                   </div>
-                  <span className="text-gradient">Single Degree</span>
+                  <div className="flex flex-col">
+                    <span className="text-gradient text-xl">Group A</span>
+                    <span className="text-sm text-muted-foreground">(Single Degree)</span>
+                  </div>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
+              <CardContent className="space-y-8">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-gradient mb-2">9 Courses</div>
-                  <p className="text-muted-foreground">
-                    Complete breakdown with instructor insights, strategic recommendations, and insider tips.
+                  <div className="text-4xl font-bold text-gradient mb-3">9 Courses</div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Complete breakdown with instructor insights, strategic recommendations, and insider tips for single
+                    degree students.
                   </p>
                 </div>
 
@@ -144,13 +148,15 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <Link href="/single-degree">
-                  <Button className="w-full group bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white border-0 h-12">
-                    <Trophy className="mr-2 h-4 w-4" />
-                    Explore Single Degree Guide
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
-                </Link>
+                <div className="mt-8">
+                  <Link href="/single-degree">
+                    <Button className="w-full group bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white border-0 h-12">
+                      <Trophy className="mr-2 h-4 w-4" />
+                      Explore Group A Guide
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Button>
+                  </Link>
+                </div>
               </CardContent>
             </Card>
 
@@ -160,13 +166,16 @@ export default function HomePage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Users className="h-6 w-6 text-white" />
                   </div>
-                  <span className="text-gradient-secondary">Dual Degree</span>
+                  <div className="flex flex-col">
+                    <span className="text-gradient-secondary text-xl">Group B</span>
+                    <span className="text-sm text-muted-foreground">(Dual Degree)</span>
+                  </div>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
+              <CardContent className="space-y-8">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-gradient-secondary mb-2">8 Courses</div>
-                  <p className="text-muted-foreground">
+                  <div className="text-4xl font-bold text-gradient-secondary mb-3">8 Courses</div>
+                  <p className="text-muted-foreground leading-relaxed">
                     Specialized recommendations tailored for dual degree program requirements and pathways.
                   </p>
                 </div>
@@ -186,13 +195,15 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <Link href="/dual-degree">
-                  <Button className="w-full group bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white border-0 h-12">
-                    <Zap className="mr-2 h-4 w-4" />
-                    Explore Dual Degree Guide
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
-                </Link>
+                <div className="mt-8">
+                  <Link href="/dual-degree">
+                    <Button className="w-full group bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white border-0 h-12">
+                      <Zap className="mr-2 h-4 w-4" />
+                      Explore Group B Guide
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Button>
+                  </Link>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -258,7 +269,7 @@ export default function HomePage() {
                       <h4 className="font-semibold text-purple-600 dark:text-purple-400">Choose Your Path</h4>
                     </div>
                     <p className="text-sm text-muted-foreground pl-11">
-                      Navigate to your program-specific course recommendations and instructor insights.
+                      Navigate to Group A (Single Degree) or Group B (Dual Degree) for program-specific recommendations.
                     </p>
                   </div>
 
