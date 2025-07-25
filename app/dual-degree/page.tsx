@@ -14,14 +14,15 @@ export default function DualDegreePage() {
       lower.includes("first priority") ||
       lower.includes("prefer him") ||
       lower.includes("demi-god") ||
-      lower.includes("amazing")
+      lower.includes("amazing")||lower.include("best")||
+      lower.include("better")||lower.include("goated")
     ) {
       return "text-green-600 dark:text-green-400 font-semibold"
     }
     if (lower.includes("avoid")) {
       return "text-red-600 dark:text-red-400 font-semibold"
     }
-    if (lower.includes("prefer") || lower.includes("good") || lower.includes("decent")) {
+    if (lower.includes("prefer") || lower.includes("good") || lower.includes("decent")||lower.includes("opt")||lower.include("try")) {
       return "text-blue-600 dark:text-blue-400 font-semibold"
     }
     return "text-yellow-600 dark:text-yellow-400 font-semibold"
