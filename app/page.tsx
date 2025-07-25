@@ -183,7 +183,7 @@ export default function HomePage() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full" />
-                    <span className="text-muted-foreground">Mathematics, Physics, Chemistry Labs</span>
+                    <span className="text-muted-foreground">Mathematics, MeOW, Chemistry</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full" />
