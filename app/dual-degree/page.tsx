@@ -512,7 +512,6 @@ export default function DualDegreePage() {
                   </TableCell>
                   <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
                 </TableRow>
-                </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">P4, P20</TableCell>
                   <TableCell>I R Laskar</TableCell>
