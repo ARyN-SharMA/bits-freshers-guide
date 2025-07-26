@@ -96,7 +96,7 @@ export default function SingleDegreePage() {
                   <TableCell>
                     <Badge variant="outline">T Th F 6</Badge>
                   </TableCell>
-                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid, The first half is great but second half is horrrible</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -129,6 +129,38 @@ export default function SingleDegreePage() {
                   <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T8, T9</TableCell>
+                  <TableCell>Pramod Eyyunni</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T10, T11</TableCell>
+                  <TableCell>Rahul Kumar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">T 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T 15</TableCell>
+                  <TableCell>Devendra Kumar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1, T 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T2, T3</TableCell>
+                  <TableCell>Divyum Sharma</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Teaches well but stict checking")}>Teaches well but strict checking</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T1, T19</TableCell>
                   <TableCell>Anirudh Singh Rana</TableCell>
                   <TableCell>
@@ -137,6 +169,14 @@ export default function SingleDegreePage() {
                   <TableCell className={getRecommendationStyle("Teaches well but Strict Checking")}>
                     Teaches well but Strict Checking
                   </TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T13, T24</TableCell>
+                  <TableCell>Jitender Kumar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">Th 1, W 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T16</TableCell>
@@ -200,7 +240,7 @@ export default function SingleDegreePage() {
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">L3</TableCell>
-                  <TableCell>SACHIN ULHASRAO BELGAWAR</TableCell>
+                  <TableCell>SACHIN ULHASRAO BELGAMWAR</TableCell>
                   <TableCell>
                     <Badge variant="outline">T Th F 3</Badge>
                   </TableCell>
@@ -254,6 +294,16 @@ export default function SingleDegreePage() {
                   </TableCell>
                   <TableCell className={getRecommendationStyle("His explanation is good")}>
                     His explanation is good
+                  </TableCell>
+                </TableRow>
+                 <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T3, T25</TableCell>
+                  <TableCell>Sachin Ulhasrao Belgamwar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">F 1, W 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("His explanation is good")}>
+                    His explanation is also good
                   </TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
@@ -570,6 +620,16 @@ export default function SingleDegreePage() {
                     <Badge variant="outline">M 1, T 1</Badge>
                   </TableCell>
                   <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
+                </TableRow>
+                 <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T9, T12</TableCell>
+                  <TableCell>Sudeshna Mukherjee</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">T 9, Th 9</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>
+                    Avoid
+                  </TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T10</TableCell>
