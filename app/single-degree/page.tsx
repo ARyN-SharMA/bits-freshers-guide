@@ -172,7 +172,7 @@ export default function SingleDegreePage() {
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T13, T24</TableCell>
-                  <TableCell>Jitender Kumar</TableCell>
+                  <TableCell>Balram Dubey</TableCell>
                   <TableCell>
                     <Badge variant="outline">Th 1, W 1</Badge>
                   </TableCell>
