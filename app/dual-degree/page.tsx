@@ -27,6 +27,7 @@ export default function DualDegreePage() {
     }
     return "text-yellow-600 dark:text-yellow-400 font-semibold"
   }
+    return(
 
     <div className="min-h-screen px-6 py-8 lg:px-8">
       <div className="mx-auto max-w-6xl space-y-8">
