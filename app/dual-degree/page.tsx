@@ -97,7 +97,7 @@ export default function DualDegreePage() {
                   <TableCell>
                     <Badge variant="outline">T Th F 6</Badge>
                   </TableCell>
-                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>First half is good but second half is horrible</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -128,6 +128,38 @@ export default function DualDegreePage() {
                     <Badge variant="outline">M 1, T 1</Badge>
                   </TableCell>
                   <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T8, T9</TableCell>
+                  <TableCell>Pramod Eyyunni</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T10, T11</TableCell>
+                  <TableCell>Rahul Kumar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">T 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T 15</TableCell>
+                  <TableCell>Devendra Kumar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1, T 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Prefer")}>Prefer</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T2, T3</TableCell>
+                  <TableCell>Divyum Sharma</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Teaches well but stict checking")}>Teaches well but strict checking</TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T1, T19</TableCell>
