@@ -162,6 +162,14 @@ export default function DualDegreePage() {
                   <TableCell className={getRecommendationStyle("Teaches well but stict checking")}>Teaches well but strict checking</TableCell>
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T2, T3</TableCell>
+                  <TableCell>Divyum Sharma</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">M 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Teaches well but stict checking")}>Teaches well but strict checking</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">T1, T19</TableCell>
                   <TableCell>Anirudh Singh Rana</TableCell>
                   <TableCell>
@@ -170,6 +178,22 @@ export default function DualDegreePage() {
                   <TableCell className={getRecommendationStyle("Teaches well but Strict Checking")}>
                     Teaches well but Strict Checking
                   </TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T13, T24</TableCell>
+                  <TableCell>Balram Dubey</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">Th 1, W 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T16</TableCell>
+                  <TableCell>Rakhee</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">Th 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -225,7 +249,7 @@ export default function DualDegreePage() {
                 </TableRow>
                 <TableRow className="hover:bg-muted/50">
                   <TableCell className="font-medium">L3</TableCell>
-                  <TableCell>SACHIN ULHASRAO BELGAWAR</TableCell>
+                  <TableCell>SACHIN ULHASRAO BELGAMWAR</TableCell>
                   <TableCell>
                     <Badge variant="outline">T Th F 3</Badge>
                   </TableCell>
@@ -269,6 +293,26 @@ export default function DualDegreePage() {
                   </TableCell>
                   <TableCell className={getRecommendationStyle("His explanation is good")}>
                     His explanation is good
+                  </TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T3, T25</TableCell>
+                  <TableCell>Sachin Ulhasrao Belgamwar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">F 1, W 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("")}>
+                    His explanation is also good, but you may have problem with his accent
+                  </TableCell>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">T4, T11</TableCell>
+                  <TableCell>Priya Christina S</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">F 1, T 1</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid her at any cost")}>
+                    Avoid her at any cost
                   </TableCell>
                 </TableRow>
               </TableBody>
@@ -465,6 +509,15 @@ export default function DualDegreePage() {
                   <TableCell>BHARTI KHUNGAR</TableCell>
                   <TableCell>
                     <Badge variant="outline">W 34</Badge>
+                  </TableCell>
+                  <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
+                </TableRow>
+                </TableRow>
+                <TableRow className="hover:bg-muted/50">
+                  <TableCell className="font-medium">P4, P20</TableCell>
+                  <TableCell>I R Laskar</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">F 89, Th 89</Badge>
                   </TableCell>
                   <TableCell className={getRecommendationStyle("Avoid")}>Avoid</TableCell>
                 </TableRow>
