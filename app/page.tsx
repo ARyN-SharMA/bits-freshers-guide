@@ -337,10 +337,10 @@ export default function HomePage() {
                 </div>
                 <div className="flex flex-wrap justify-center gap-3">
                   {[
+                    "Divyam Dangayach (2024A2PS1254P)",
                     "Aryan Sharma (2024B5PS1065P)",
                     "Hitesh Tiwari (2024B3PS0944P)",
                     "Pragyan Gupta (2024B4PS0984P)",
-                    "Divyam Dangayach (2024A2PS1254P)",
                     "Tushar Raghwani (2024B4PS0976P)",
                     "Lakshya Gupta (2024A1PS0255)",
                     "Shreyansh Mishra (2024B3PS0947)",
