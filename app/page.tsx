@@ -47,7 +47,7 @@ export default function HomePage() {
 
             <div className="space-y-6">
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                <span className="text-gradient">The Unofficial</span>
+                <span className="text-gradient">The </span>
                 <br />
                 <span className="text-foreground">Fresher's Guide</span>
               </h1>
